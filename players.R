@@ -4,7 +4,7 @@
 source('~/Desktop/functions.r')
 
 #read the data
-data <- read.csv("~/Desktop/DataScienceCandidateAssignment/DataSet1.csv")
+data <- read.csv("~/Desktop/DataSet1.csv")
 
 #check zero variance/ near zero variance predictors
 library(caret)
